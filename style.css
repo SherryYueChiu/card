@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #182429;
+  color: #cfd6dd;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80vw;
+  height: 100%;
+}
+
+.container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+  overflow: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .profile {
+  width: 100%;
+}
+
+.container .contacts img {
+  height: 3em;
+  margin: 0.5em;
+}
+
+.container .break {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  width: 0;
+}
+
+.profile .ChName,
+.profile .EnName {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0.3em 0em .5em .1em;
+  white-space: nowrap;
+}
+
+.profile .EnName {
+  margin: .3em 0em 1em .3em;
+  color: darkgray;
+}
+
+.profile .job {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0.3em;
+  margin-right: 0;
+  white-space: nowrap;
+}
+
+.profile .intro {
+  margin: 1.5em 0.5em 1.5em;
+  line-height: 2em;
+}
+/*# sourceMappingURL=style.css.map */
