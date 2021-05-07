@@ -1,3 +1,3 @@
-# 我的個人名片
+# My intro card
 
-[連結](https://sherryyuechiu.github.io/card)
+[Link](https://sherryyuechiu.github.io/card)
