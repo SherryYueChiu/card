@@ -69,4 +69,10 @@ body a {
   margin: 1.5em 0.5em 1.5em;
   line-height: 2em;
 }
+
+.profile .intro a {
+  word-break: keep-all;
+  white-space: pre;
+  overflow-wrap: normal;
+}
 /*# sourceMappingURL=style.css.map */

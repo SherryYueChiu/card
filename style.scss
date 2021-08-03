@@ -55,5 +55,10 @@ body {
     .intro {
         margin: 1.5em 0.5em 1.5em;
         line-height: 2em;
+        a{
+            word-break: keep-all;
+            white-space: pre;
+            overflow-wrap: normal;
+        }
     }
 }
