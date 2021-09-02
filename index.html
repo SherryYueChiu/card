@@ -36,6 +36,8 @@
     <meta name="twitter:title" content="小名片">
     <meta name="twitter:description" content="梓榳的名片">
     <meta name="twitter:image" content="https://sherryyuechiu.github/card/images/logo/maskable_icon_x48.png">
+    
+    <script src="clipboard.min.js"></script>
 </head>
 
 <body>
@@ -81,6 +83,16 @@
             <div class="row contacts">
             </div>-->
         </div>
+
+        <h1 style="margin-left: 2rem;">Donate</h1>
+        <div class="distributions">
+            <div class="distribution copy" onclick="popDonate(this)" platform="PAYPAL"
+                data-clipboard-text="sherryyue.c@protonmail.com">Paypal</div>
+            <div class="distribution copy" onclick="popDonate(this)" platform="BTC"
+                data-clipboard-text="34qZoqwFxXWhnPGBoR5o8J8tsHSA3nAAbE">BTC</div>
+            <div class="distribution copy" onclick="popDonate(this)" platform="ETH"
+                data-clipboard-text="0x8612625c877334873690C4FB71d454fBdA6888c8">ETH</div>
+        </div>
     </div>
     <!-- Default Statcounter code for My Business Card
 https://sherryyuechiu.github.io/personal/card/ -->
@@ -99,6 +111,7 @@ https://sherryyuechiu.github.io/personal/card/ -->
     </noscript>
     <!-- End of Statcounter Code -->
     <script src="./app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

@@ -47,12 +47,12 @@ body a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0.3em 0em .5em .1em;
+  margin: 0.3em 0em 0.5em 0.1em;
   white-space: nowrap;
 }
 
 .profile .EnName {
-  margin: .3em 0em 1em .3em;
+  margin: 0.3em 0em 1em 0.3em;
   color: darkgray;
 }
 
@@ -74,5 +74,30 @@ body a {
   word-break: keep-all;
   white-space: pre;
   overflow-wrap: normal;
+}
+
+.distributions {
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.distribution {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  margin: .5rem;
+  color: dimgray;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  font-weight: bold;
+  word-break: normal;
+  white-space: break-spaces;
+  overflow-wrap: normal;
+  cursor: copy;
 }
 /*# sourceMappingURL=style.css.map */

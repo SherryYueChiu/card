@@ -39,11 +39,11 @@ body {
     .ChName,
     .EnName {
         display: inline-flex;
-        margin: 0.3em 0em .5em .1em;
+        margin: 0.3em 0em 0.5em 0.1em;
         white-space: nowrap;
     }
     .EnName {
-        margin: .3em 0em 1em .3em;
+        margin: 0.3em 0em 1em 0.3em;
         color: darkgray;
     }
     .job {
@@ -55,10 +55,30 @@ body {
     .intro {
         margin: 1.5em 0.5em 1.5em;
         line-height: 2em;
-        a{
+        a {
             word-break: keep-all;
             white-space: pre;
             overflow-wrap: normal;
         }
     }
+}
+
+.distributions {
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.distribution {
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    margin: .5rem;
+    color: dimgray;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    font-weight: bold;
+    word-break: normal;
+    white-space: break-spaces;
+    overflow-wrap: normal;
+    cursor: copy;
 }
