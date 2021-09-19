@@ -71,6 +71,7 @@ body {
 
 .distribution {
     width: fit-content;
+    height: fit-content;
     padding: 0.2rem 0.5rem;
     margin: .5rem;
     color: dimgray;
@@ -81,4 +82,7 @@ body {
     white-space: break-spaces;
     overflow-wrap: normal;
     cursor: copy;
+    a {
+        color: dimgray;
+    }
 }

@@ -3,13 +3,23 @@ window.onload = () => {
 
   popDonate = (elm) => {
     /** @type HTMLElement */
-    let platform = elm.getAttribute("platform");
-    let copyContent = elm.getAttribute("data-clipboard-text");
-    Swal.fire(
-      `謝謝你的${platform}贊助`,
-      `幫您把 ${copyContent} 複製起來了`,
-      'success'
-    );
+    const platform = elm.getAttribute("platform").trim();
+    const linkType = elm.getAttribute("data-type").trim();
+    if (linkType === "link") {
+      Swal.fire(
+        `謝謝你用${platform}贊助`,
+        `將導向贊助${copyContent}`,
+        'success'
+      );
+    } else if (linkType === "text") {
+      let copyContent = elm.getAttribute("data-content-type");
+      if (copyContent)
+        Swal.fire(
+          `謝謝你用${platform}贊助`,
+          `先幫您把${copyContent}複製起來了`,
+          'success'
+        );
+    }
   }
 };
 

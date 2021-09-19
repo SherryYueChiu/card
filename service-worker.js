@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","141b942538a70e4f83cc376840fe4976"],["style.css","93b56a341de67940beca0e6a22c2d646"]];
+var precacheConfig = [["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","49e05a945e09354f2b5f91afd6e7b850"],["style.css","31bbfa45b9dfd8477f188123a6a46f7c"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 

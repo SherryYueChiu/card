@@ -89,6 +89,9 @@ body a {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 0.2rem 0.5rem;
   margin: .5rem;
   color: dimgray;
@@ -99,5 +102,9 @@ body a {
   white-space: break-spaces;
   overflow-wrap: normal;
   cursor: copy;
+}
+
+.distribution a {
+  color: dimgray;
 }
 /*# sourceMappingURL=style.css.map */
