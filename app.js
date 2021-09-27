@@ -5,6 +5,7 @@ window.onload = () => {
     /** @type HTMLElement */
     const platform = elm.getAttribute("platform").trim();
     const linkType = elm.getAttribute("data-type").trim();
+    const copyContent = elm.getAttribute("data-content-type");
     if (linkType === "link") {
       Swal.fire(
         `謝謝你用${platform}贊助`,
@@ -12,7 +13,6 @@ window.onload = () => {
         'success'
       );
     } else if (linkType === "text") {
-      let copyContent = elm.getAttribute("data-content-type");
       if (copyContent)
         Swal.fire(
           `謝謝你用${platform}贊助`,
