@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background: rgb(24, 36, 41);
-    color: rgb(207, 214, 221);
+    background: #33135C;
+    color: aliceblue;
     a {
         text-decoration: none;
     }
@@ -16,7 +16,7 @@ body {
         display: flex;
         width: 100%;
         height: 100%;
-        padding: 2em;
+        padding: 2rem;
         overflow: auto;
         flex-wrap: wrap;
     }
@@ -25,7 +25,7 @@ body {
     }
     .contacts {
         img {
-            height: 3em;
+            height: 2rem;
             margin: 0.5em;
         }
     }
@@ -44,7 +44,7 @@ body {
     }
     .EnName {
         margin: 0.3em 0em 1em 0.3em;
-        color: darkgray;
+        color: lightyellow;
     }
     .job {
         display: inline-flex;
@@ -63,6 +63,11 @@ body {
     }
 }
 
+.section-title {
+    margin-left: 2rem;
+    border-bottom: #DE38C8 3px solid;
+}
+
 .distributions {
     margin-left: 1rem;
     display: flex;
@@ -74,8 +79,8 @@ body {
     height: fit-content;
     padding: 0.2rem 0.5rem;
     margin: .5rem;
-    color: dimgray;
-    background-color: antiquewhite;
+    color: ghostwhite;
+    background-color: #DE38C8;
     border-radius: 1rem;
     font-weight: bold;
     word-break: normal;
@@ -83,6 +88,6 @@ body {
     overflow-wrap: normal;
     cursor: copy;
     a {
-        color: dimgray;
+        color: ghostwhite;
     }
 }
