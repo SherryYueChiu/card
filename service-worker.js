@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["app.js","4d8cbed5dc85d343942d6fbd06106e70"],["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","cc18dc069da1a20dd21348414e31bc09"],["style.css","45ea32162b238ee8271e39200664f149"]];
+var precacheConfig = [["app.js","4d8cbed5dc85d343942d6fbd06106e70"],["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","a93a2c8c59cc87aa22e44369ab291173"],["style.css","3ef9f3990fd42617ab66c61f879e0c3c"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
