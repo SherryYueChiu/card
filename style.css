@@ -2,8 +2,12 @@
   font-family: Iansui;
   src: url(./Iansui0.91-Regular.ttf);
 }
+@font-face {
+  font-family: Cubic;
+  src: url(./Cubic_11_1.100_R.woff2);
+}
 * {
-  font-family: Iansui;
+  font-family: Cubic;
 }
 
 body {
@@ -12,7 +16,7 @@ body {
   margin: 0;
   background: #2f2f2f;
   color: aliceblue;
-  font-family: Iansui;
+  font-family: Cubic;
 }
 body a {
   text-decoration: none;
@@ -47,6 +51,9 @@ body a {
   display: inline-flex;
   margin: 0.3em 0em 0.5em 0.1em;
   white-space: nowrap;
+}
+.profile .ChName {
+  font-family: Iansui;
 }
 .profile .EnName {
   margin: 0.3em 0em 1em 0.3em;
