@@ -19,6 +19,13 @@ window.onload = () => {
           `先幫您把${copyContent}複製起來了`,
           'success'
         );
+    } else if (linkType === "rich") {
+      if (copyContent)
+        Swal.fire({
+          title: `謝謝你用${platform}贊助`,
+          text: `${elm.getAttribute("data-msg").trim()}`,
+          imageUrl: elm.getAttribute("data-image"),
+        });
     }
   }
 };
