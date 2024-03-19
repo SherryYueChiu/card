@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["app.js","1119b2b05a265d9d71515d204b0670b0"],["images/LineBankAccount.webp","0d56b2fbe8b748f5e1f1836b17dde8a8"],["images/discord.png","a43e0bf901c2b10dd68661c83a9c8d13"],["images/dontDonate.png","53cda88d9945ee4ff0f314a2a05abd24"],["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","e059c18e775f13d2e6cdd2945dfb3364"],["style.css","1cfa27cbeb9d41463cd25e6630a878cb"]];
+var precacheConfig = [["app.js","1119b2b05a265d9d71515d204b0670b0"],["images/LineBankAccount.webp","0d56b2fbe8b748f5e1f1836b17dde8a8"],["images/discord.png","a43e0bf901c2b10dd68661c83a9c8d13"],["images/dontDonate.png","75099956037e0622a6bc51aed73a363c"],["images/instagram.png","8ffc1c8179ac2bbe0b4dcd43c1847446"],["images/mail.png","8936fc635ff29fb0fe01dcc7afea047a"],["images/mewe.png","d48b0c1754e24f23bdf76c2151a7b3ba"],["images/telegram.png","f37fbb46904c6d5ed7766300bb87a8b9"],["images/twitter.png","16905c87375d906d060d9e553c1b7f48"],["index.html","e059c18e775f13d2e6cdd2945dfb3364"],["style.css","1cfa27cbeb9d41463cd25e6630a878cb"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
