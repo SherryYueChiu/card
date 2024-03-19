@@ -82,9 +82,23 @@ body {
 }
 
 .distributions {
-    margin-left: 1rem;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin-left: 1rem;
+    overflow-x: hidden;
+    &::after {
+        position: absolute;
+        width: 200vw;
+        height: 100%;
+        content: "";
+        background-image: url(./images/dontDonate.png);
+        background-repeat: repeat;
+        animation: slide calc(1s * var(--vw) * var(--vw) / 200) linear infinite;
+        pointer-events: none;
+    }
 }
 
 .distribution {
@@ -102,5 +116,14 @@ body {
     cursor: copy;
     a {
         color: ghostwhite;
+    }
+}
+
+@keyframes slide {
+    from {
+        background-position-x: 0%;
+    }
+    to {
+        background-position-x: calc(var(--vw) / 3 * 100% - 5%);
     }
 }

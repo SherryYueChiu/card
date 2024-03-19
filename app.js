@@ -30,5 +30,15 @@ window.onload = () => {
   }
 };
 
+window.addEventListener('resize', () => {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  document.documentElement.style.setProperty('--vw', vw);
+  document.documentElement.style.setProperty('--vh', vh);
+});
+
+// Trigger the resize event initially to set the initial values
+window.dispatchEvent(new Event('resize'));
+
 // register service worker
 navigator.serviceWorker.register('service-worker.js', { scope: "." });
