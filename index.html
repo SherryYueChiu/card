@@ -3,44 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="./manifest.json" rel="manifest">
+    <link href="./manifest.json"
+        rel="manifest">
     <script src="./service-worker.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="名片" />
-    <meta name="KeyWords" content="玥餅'邱梓榳'Sherry" />
-    <meta name="Author" content="SherryYue.Chiu" />
-    <link rev="made" href="mailto:sherryyue.c@protonmail.com" />
-    <meta http-equiv="Pragma" content="no_cache" />
-    <meta name="Creation-Date" content="18-feb-2021 00:00:00" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta name="Description"
+        content="名片" />
+    <meta name="KeyWords"
+        content="玥餅'邱梓榳'Sherry" />
+    <meta name="Author"
+        content="SherryYue.Chiu" />
+    <link rev="made"
+        href="mailto:sherryyue.c@protonmail.com" />
+    <meta http-equiv="Pragma"
+        content="no_cache" />
+    <meta name="Creation-Date"
+        content="18-feb-2021 00:00:00" />
     <title>小名片</title>
-    <link rel="icon" href="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x48.png">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x48.png">
+    <link rel="stylesheet"
+        href="./style.css">
 
     <!--iOS-->
-    <meta name="apple-mobile-web-app-title" content="小名片">
-    <link rel="apple-touch-icon" href="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x512.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title"
+        content="小名片">
+    <link rel="apple-touch-icon"
+        href="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x512.png">
+    <meta name="apple-mobile-web-app-capable"
+        content="yes">
     <!-- HTML Meta Tags -->
-    <meta name="description" content="小名片">
-    <meta name="KeyWords" content="玥餅'梓榳" />
-    <meta name="Author" content="梓榳" />
-    <link rev="made" href="mailto:sherryyue.c@protonmail.com" />
+    <meta name="description"
+        content="小名片">
+    <meta name="KeyWords"
+        content="玥餅'梓榳" />
+    <meta name="Author"
+        content="梓榳" />
+    <link rev="made"
+        href="mailto:sherryyue.c@protonmail.com" />
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://sherryyuechiu.github.io/card/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="小名片">
-    <meta property="og:description" content="梓榳的名片">
-    <meta property="og:image" content="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x48.png">
+    <meta property="og:url"
+        content="https://sherryyuechiu.github.io/card/">
+    <meta property="og:type"
+        content="website">
+    <meta property="og:title"
+        content="小名片">
+    <meta property="og:description"
+        content="梓榳的名片">
+    <meta property="og:image"
+        content="https://sherryyuechiu.github.io/card/images/logo/maskable_icon_x48.png">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="sherryyuechiu.github.io">
-    <meta property="twitter:url" content="https://sherryyuechiu.github.io/card/">
-    <meta name="twitter:title" content="小名片">
-    <meta name="twitter:description" content="梓榳的名片">
-    <meta name="twitter:image" content="https://sherryyuechiu.github/card/images/logo/maskable_icon_x48.png">
+    <meta name="twitter:card"
+        content="summary_large_image">
+    <meta property="twitter:domain"
+        content="sherryyuechiu.github.io">
+    <meta property="twitter:url"
+        content="https://sherryyuechiu.github.io/card/">
+    <meta name="twitter:title"
+        content="小名片">
+    <meta name="twitter:description"
+        content="梓榳的名片">
+    <meta name="twitter:image"
+        content="https://sherryyuechiu.github/card/images/logo/maskable_icon_x48.png">
 
     <script src="clipboard.min.js"></script>
 </head>
@@ -69,16 +98,21 @@
             <div class="break"></div>
             <div class="row contacts">
                 <a href="https://www.instagram.com/sherryyue.c/">
-                    <img src="./images/instagram.png" alt="Instagram">
+                    <img src="./images/instagram.png"
+                        alt="Instagram">
                 </a>
                 <a href="https://t.me/sherryyue428">
-                    <img src="./images/telegram.png" alt="Telegram">
+                    <img src="./images/telegram.png"
+                        alt="Telegram">
                 </a>
                 <a href="https://discordapp.com/users/sherryyue">
-                    <img src="./images/discord.png" alt="Discord">
+                    <img src="./images/discord.png"
+                        alt="Discord">
                 </a>
                 <a href="mailto:sherryyue.c@protonmail.com">
-                    <img src="./images/mail.png" alt="email" style="filter: invert(1);">
+                    <img src="./images/mail.png"
+                        alt="email"
+                        style="filter: invert(1);">
                 </a>
             </div>
             <!--<div class="break"></div>
@@ -88,17 +122,41 @@
 
         <h1 class="section-title">贊助</h1>
         <div class="distributions">
-            <div class="distribution copy" onclick="popDonate(this)" platform="Paypal" data-type="link"
-                data-content-type="網址" data-content-type="信箱" data-clipboard-text="sherryyue.c@protonmail.com"><a
+            <div class="distribution copy"
+                onclick="popDonate(this)"
+                platform="Paypal"
+                data-type="link"
+                data-content-type="信箱"
+                data-clipboard-text="sherryyue.c@protonmail.com"><a
                     href="https://www.paypal.com/paypalme/sherryyuechiu">Paypal</a></div>
-            <div class="distribution copy" onclick="popDonate(this)" platform="銀行帳戶" data-type="rich"
-                data-msg="(396)900609120" data-image="./images/JKOSAccount.webp"
-                data-clipboard-text="900609120" data-content-type="帳號">轉帳
+            <div class="distribution copy"
+                onclick="popDonate(this)"
+                platform="銀行帳戶"
+                data-type="rich"
+                data-msg="(396)900609120"
+                data-image="./images/JKOSAccount.webp"
+                data-clipboard-text="900609120"
+                data-content-type="帳號">轉帳
             </div>
-            <div class="distribution copy" onclick="popDonate(this)" platform="BTC 比特幣" data-type="text"
-                data-content-type="地址" data-clipboard-text="34qZoqwFxXWhnPGBoR5o8J8tsHSA3nAAbE">BTC 比特幣</div>
-            <div class="distribution copy" onclick="popDonate(this)" platform="ETH 乙太幣" data-type="text"
-                data-content-type="地址" data-clipboard-text="0x8612625c877334873690C4FB71d454fBdA6888c8">ETH 乙太幣</div>
+            <div class="distribution copy"
+                onclick="popDonate(this)"
+                platform="LiberaPay"
+                data-type="link"
+                data-content-type="網址">
+                <a href="https://liberapay.com/sherryyue/donate">LiberaPay</a>
+            </div>
+            <div class="distribution copy"
+                onclick="popDonate(this)"
+                platform="BTC 比特幣"
+                data-type="text"
+                data-content-type="地址"
+                data-clipboard-text="34qZoqwFxXWhnPGBoR5o8J8tsHSA3nAAbE">BTC 比特幣</div>
+            <div class="distribution copy"
+                onclick="popDonate(this)"
+                platform="ETH 乙太幣"
+                data-type="text"
+                data-content-type="地址"
+                data-clipboard-text="0x8612625c877334873690C4FB71d454fBdA6888c8">ETH 乙太幣</div>
         </div>
     </div>
     <!-- Default Statcounter code for My Business Card
@@ -108,11 +166,17 @@ https://sherryyuechiu.github.io/personal/card/ -->
         var sc_invisible = 1;
         var sc_security = "c4193b29";
     </script>
-    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js"
+        async></script>
     <noscript>
         <div class="statcounter">
-            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
-                <img class="statcounter" src="https://c.statcounter.com/12481568/0/c4193b29/1/" alt="Web Analytics">
+            <a title="Web Analytics"
+                href="https://statcounter.com/"
+                target="_blank">
+                <img class="statcounter"
+                    src="https://c.statcounter.com/12481568/0/c4193b29/1/"
+                    alt="Web Analytics">
             </a>
         </div>
     </noscript>
